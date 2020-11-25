@@ -4,39 +4,80 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
-    <title>Портфолио Junior верстальщика</title>
+    <title>Портфолио. Junior верстальщик Солод Алиса </title>
   </head>
-
   <body>
-    <header class="page-header">
-      Россия, Москва sld-alisa@yandex.ru
-    </header>
-
-    <section class="hero-image">
-      <h1 class="heading">Солод Алиса Руслановна</h1>
-      <p>Junior верстальщик</p>
-    </section>
-
+    <div class="background_first">
+      <div class="container ">
+      <header class="page-header" id="page-header">
+        <ul class="main-menu">
+            <li><a href="#page-header">Главная</a></li>
+            <li><a href="#about_self">Обо мне</a></li>
+            <li><a href="#my_work">Мои работы</a></li>
+            <li><a href="#blog">Блог верстальщика</a></li>
+            <li><a href="#page-footer">Контакты</a></li>
+          </ul>
+       <a href="mailto:sld-alisa@yandex.ru" class="header-email">sld-alisa@yandex.ru</a>
+         <p>Россия, Москва</p>
+         <p>+7 xxx xxx xx xx</p>
+       </header>
+       <section class="hero-image">
+          <h1 class="heading">Солод Алиса</h1>
+          <p>Junior верстальщик</p>
+        </section>
+     </div>
+    </div>
     <section class="intro">
-      <h2 class="subheading">Давайте познакомимся</h2>
-      <h3>Пара слов о себе</h3>
-      <p>Начинающий WEB-разработчик.</p>
-      <h3>Чем могу быть полезен</h3>
-      <p>Студентка, активно изучаю WEB-дизайн, HTML5, CSS3, JS</p>
+      <div class="container">
+        <a href="#about_self">
+          <h2 class="subheading">Давайте познакомимся</h2>
+        </a>
+         <figure class="about_self" id="about_self" >
+         <img   src="img/solod_photo.jpg" width="500" height="
+         750" alt="Фотография Солод А.Р.">
+         </figure>
+      <div class="skills"> 
+       <h3>Пара слов о себе</h3>
+       <p>Доброго времени суток!<br> Меня зовут Алиса и я <i>инженер по профессии, WEB-разработчик по призванию.</i></p>
+       <h3>Чем могу быть полезен</h3>
+       <p>Сделаю красиво, а не как получится. <br> Активно изучаю WEB-дизайн, HTML5, CSS3, JS</p>
+       <h3>Мои навыки</h3>
+       <dl class="skills-list">
+        <dt class="skill-html">HTML</dt>
+        <dd class="level"><div style="width: 60%;">60%</div></dd> 
+        <dt class="skill-css">CSS</dt> 
+         <dd class="level"><div style="width: 40%;">40%</div></dd>
+       </dl>
+      </div>
+     </div>
     </section>
-
     <section class="portfolio">
-      <h2 class="subheading">Мои работы</h2>
-
-      <h3>Сайт инструктора Кекса</h3>
-      <p><a href="https://htmlacademy.ru/">HTML Academy</a></p>
-
-      <h3>Блог начинающего верстальщика</h3>
-      <p>Статический блог про обучение HTML и CSS.</p>
+      <div class="container">
+        <h2 class="subheading" id="my_work">Мои работы</h2>
+        <figure class="portfolio_photo">
+          <img  src="img/work_1.jpg" width="400" height="250" alt="Дизайн интернет-магазина">
+          <img  src="img/work_2.jpg" width="400" height="250" alt="Новости культуры">
+          <img  src="img/work_3.jpg" width="400" height="250" alt="Билет в будущее">
+        </figure>
+        <h3>Сайт инструктора Кекса</h3>
+        <a href="https://htmlacademy.ru/" class="button">HTML Academy</a> 
+       <h3 id="blog">Блог начинающего верстальщика</h3>
+       <p>Статический блог про обучение HTML и CSS.</p>
+      </div>
     </section>
-
-    <footer class="page-footer">
-      Россия, Москва sld-alisa@yandex.ru
+    <footer class="page-footer" id="page-footer">
+      <div class="container">
+          <a href="mailto:sld-alisa@yandex.ru" class="footer-email">sld-alisa@yandex.ru</a>
+         <p>Россия, Москва</p>
+         <p>+7 xxx xxx xx xx</p>
+         <ul class="main-menu">
+            <li><a href="#page-header">Главная</a></li>
+            <li><a href="#about_self">Обо мне</a></li>
+            <li><a href="#my_work">Мои работы</a></li>
+            <li><a href="#blog">Блог верстальщика</a></li>
+            <li><a href="#page-footer">Контакты</a></li>
+          </ul>
+      </div>
     </footer>
   </body>
 </html>
